@@ -1,0 +1,50 @@
+/* general */
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+
+/*transition*/
+a, button {
+    transition: all 0.3s ease;
+}
+
+/* desktop nav*/
+nav, nav-links{ 
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 17vh;
+}
+
+.nav-line{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
