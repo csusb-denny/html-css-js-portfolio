@@ -1,0 +1,27 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        padding: 20px 5%;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    .experience-container, .projects-container {
+        flex-direction: column;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+
+    .contact-container form {
+        width: 100%;
+    }
+}
